@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Intacct\\AR_Aging\\": "src/AR_Aging/"
+      "Intacct\\AR_Aging\\": "src/AccountsReceivable/"
     }
   }
 }
