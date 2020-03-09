@@ -25,13 +25,13 @@ class ArAging extends AbstractArAging
         $xml->startElement('function');
         $xml->writeAttribute('controlid', $this->getControlId());
 
-        $xml->startElement('get_aging');
+        $xml->startElement('get_araging');
         $xml->writeElement('agingperiods', $this->getAgingPeriods());
         $xml->writeElement('customerid', $this->getCustomerId());
         $xml->writeElement('locationid', $this->getLocationId());
         $xml->writeElement('showdetails', $this->isShowDetails());
 
-        $xml->endElement(); //get_aging
+        $xml->endElement(); //get_araging
         $xml->endElement(); //function
     }
 }
