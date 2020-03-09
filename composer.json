@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.2",
     "intacct/intacct-sdk-php": "^2.1.1"
   },
   "autoload": {
