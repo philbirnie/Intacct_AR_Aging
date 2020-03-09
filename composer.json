@@ -1,0 +1,21 @@
+{
+  "name": "intacct/intacct-sdk-php-ar-aging",
+  "description": "Accounts Receivable Aging Functionality",
+  "type": "project",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "7th Street Web Company",
+      "homepage": "https://7thstreetweb.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "intacct/intacct-sdk-php": "^2.1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Intacct\\AR_Aging\\": "src/AR_Aging/"
+    }
+  }
+}
